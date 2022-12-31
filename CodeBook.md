@@ -13,7 +13,7 @@ The variables `features`, `activities`, `subject_test`, `x_test`, `y_test`, `sub
 - Merging all data (`x`, `y` and `subject`) into `merged_data`by using `cbind()` in line 28.
 
 4. Extract only the measurements on the mean and standard deviation for each measurement
-``tidy_data` is created by subsetting `merged_data` and selecting the columns `subject`, `code` and the measurements on the mean and standard deviation for each measurement.
+`tidy_data` is created by subsetting `merged_data` and selecting the columns `subject`, `code` and the measurements on the mean and standard deviation for each measurement.
 
 5. Use descriptive activity names to name the activities in the data set
 The numbers in code column of the `tidy_data` are replaced with corresponding activity taken from second column of the `activities` variable.
